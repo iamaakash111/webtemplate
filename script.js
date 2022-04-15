@@ -7,7 +7,7 @@ const about= document.querySelector(".about");
 //link IDs and scroll
 const projectBtn= document.querySelector("#projects");
 projectBtn.addEventListener("click", function(){
-    skills.scrollIntoView({behavior:"smooth"})
+    projects.scrollIntoView({behavior:"smooth"})
 })
 const aboutBtn= document.querySelector("#about");
 aboutBtn.addEventListener("click", function(){
