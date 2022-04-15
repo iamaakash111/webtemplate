@@ -45,6 +45,9 @@
                 height: 3rem;
                 width: 8rem;
                 border-radius: 4px;
+                &:hover{
+                    cursor:pointer;
+                }
                 margin: 2px;
                 border-style: none;
                 transition: 300ms;
