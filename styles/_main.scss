@@ -1,0 +1,38 @@
+@import "./variables";
+main{
+    width: 100%;
+    background: rgb(153, 152, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+   .image-container{  
+       margin-top: 90px;
+       width: 95%;
+       height: 400px;
+       position: relative;
+       img{
+           height: 100%;
+           width: 100%;
+           object-fit: cover;
+           object-position: center;
+       }
+       .information{
+           position: absolute;
+           top:20%;
+           left: 0%;
+           padding: 10px;
+           z-index: 0;
+           h2{
+            color: #fff;
+            z-index: 4;
+           }
+           h3{
+               color: #fff;
+               z-index: 4;
+           }
+           background: rgb(0, 0, 0);
+       }
+   }
+}
+

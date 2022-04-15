@@ -1,0 +1,35 @@
+.hobbyInterests{
+    width: 95%;
+    background-image: linear-gradient(to top right, rgb(109, 152, 208), rgb(56, 91, 137));
+    background-size: cover;
+    background-position: center;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        padding: 0.5rem;
+        background: rgb(44, 44, 44);
+    }
+    .interest-container{
+        padding: 0.8rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        grid-auto-rows: auto;   
+        gap: 0.5rem;
+        .activity{
+            width: auto;
+            height: auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 4px;
+            h2{
+                text-decoration: underline;
+            }
+        }
+    }
+}

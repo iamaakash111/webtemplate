@@ -1,0 +1,21 @@
+
+.about{
+    width: 95%;
+    background: rgb(221, 216, 216);
+    .about-container{
+       padding: 0.6rem;
+       display: grid;
+       grid-template-columns: 3fr 1fr;
+       gap: 0.4rem;
+       grid-row: 200px auto;
+       .about-img{
+           position: relative;
+           img{
+               height: 100%;
+               width: 100%;
+               object-fit: cover;
+           }
+       }
+    }
+
+}
