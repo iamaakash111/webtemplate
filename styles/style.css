@@ -281,6 +281,9 @@ header ul li a:hover {
   transition: 300ms;
   font-size: 1rem;
 }
+.skills .tabcomponent .tabs button:hover{
+  cursor: pointer;
+}
 
 .skills .tabcomponent .tabs .active-btn {
   color: #000;
